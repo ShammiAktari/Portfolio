@@ -32,7 +32,7 @@ body {
   font-family: "Playfair", serif;
   font-weight: 600;
   font-size: 25px;
-  text-decoration: underline;
+  text-decoration: underline yellow;
 }
 
 .centered a {
@@ -78,4 +78,31 @@ body {
   margin-top: 50px;
   padding: 15px 25px;
   margin-left: 15px;
+}
+
+@media (max-width: 900px) {
+  .hero {
+    padding: 40px;
+    margin-top: 50px;
+  }
+  .hero img {
+    width: 100%;
+  }
+
+  .centered h1 {
+    font-size: 60px;
+  }
+
+  .centered h2 {
+    font-size: 15px;
+  }
+
+  .centered p {
+    font-size: 15px;
+  }
+
+  .centered a {
+    font-size: 12px;
+    padding: 10px 20px;
+  }
 }
