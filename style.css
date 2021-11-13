@@ -132,6 +132,21 @@ body {
   padding: 0 80px;
 }
 
+h1 {
+  text-align: center;
+  color: aliceblue;
+  margin-top: 20%;
+  margin-bottom: 50px;
+}
+.icons img {
+  display: flex;
+  margin: 0 auto;
+  width: 80px;
+}
+.icons {
+  padding: 0 200px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 40px;
