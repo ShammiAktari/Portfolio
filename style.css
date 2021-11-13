@@ -94,6 +94,44 @@ body {
   border-radius: 10px;
   box-shadow: 0px 0px 20px rgb(245, 245, 105);
 }
+
+.projects {
+  margin: 60px;
+  margin-top: 100px;
+}
+
+.projects h2 {
+  font-size: 67px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+}
+
+.projects p {
+  font-size: 20px;
+  margin-top: 20px;
+  margin-bottom: 20%;
+  font-weight: 900;
+}
+
+.projects a {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+  border: 1px solid yellow;
+  padding: 15px 25px;
+  border-radius: 10px;
+  transition: 0.2s;
+}
+.projects a:hover {
+  letter-spacing: 6px;
+}
+
+.project-space {
+  margin-top: 60px;
+  padding: 0 80px;
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 40px;
@@ -118,5 +156,37 @@ body {
   .centered a {
     font-size: 12px;
     padding: 10px 20px;
+  }
+  .work-hero {
+    margin-top: 50px;
+  }
+
+  .work-hero h1 {
+    font-size: 35px;
+  }
+  .projects {
+    display: flex;
+    margin: 0 auto;
+  }
+
+  .project-space {
+    margin-top: 30px;
+    padding: 0;
+    text-align: center;
+  }
+
+  .project-space h2 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .project-space p {
+    text-align: center;
+    font-size: 15px;
+  }
+
+  .project-space a {
+    font-size: 8px;
+    padding: 8px 10px;
   }
 }
