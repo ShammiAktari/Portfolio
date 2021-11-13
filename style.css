@@ -49,3 +49,33 @@ body {
   color: rgb(229, 229, 151);
   border: 1px solid yellow;
 }
+
+.about-text {
+  padding: 100px 60px;
+}
+
+.about-text h3 {
+  text-transform: uppercase;
+}
+.about-text h1 {
+  text-transform: uppercase;
+  font-family: "Playfair", serif;
+  font-weight: 900;
+  color: white;
+  font-size: 100px;
+}
+
+.about-text p {
+  color: white;
+  font-family: "Playfair", serif;
+  opacity: 0.6;
+  font-size: 20px;
+}
+
+.about-text a {
+  text-decoration: none;
+  color: yellow;
+  margin-top: 50px;
+  padding: 15px 25px;
+  margin-left: 15px;
+}
