@@ -177,6 +177,9 @@ body {
 .nav-link {
   font-family: "Poppins", serif;
 }
+.navbar-light .navbar-nav .nav-link {
+  transition: 0.2s ease-in-out;
+}
 
 .navbar-light .navbar-nav .nav-link:hover {
   letter-spacing: 6px;
@@ -193,6 +196,20 @@ body {
   }
   .hero img {
     width: 100%;
+  }
+
+  .about-hero {
+    padding: 0 20px;
+  }
+  .about-text {
+    padding: 0 20px;
+  }
+  .about-text h1 {
+    font-size: 30px;
+  }
+
+  .about-text p {
+    font-size: 15px;
   }
 
   .centered h1 {
@@ -212,7 +229,7 @@ body {
     padding: 10px 20px;
   }
   .work-hero {
-    margin-top: 50px;
+    margin-top: 90px;
   }
 
   .work-hero h1 {
