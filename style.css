@@ -132,7 +132,11 @@ body {
   padding: 0 80px;
 }
 
-h1 {
+.skills {
+  margin-bottom: 15%;
+}
+
+.skills h1 {
   text-align: center;
   color: aliceblue;
   margin-top: 20%;
@@ -141,7 +145,8 @@ h1 {
 .icons img {
   display: flex;
   margin: 0 auto;
-  width: 80px;
+  width: 60px;
+  border-radius: 50%;
 }
 .icons {
   padding: 0 200px;
