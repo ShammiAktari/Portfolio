@@ -189,6 +189,27 @@ body {
   text-decoration: underline red;
 }
 
+footer {
+  display: flex;
+  justify-content: space-between;
+  color: aliceblue;
+  opacity: 0.6;
+}
+
+footer ul {
+  display: flex;
+  list-style: none;
+}
+
+footer li {
+  margin-left: 30px;
+  transition: 0.5s;
+}
+
+footer li:hover {
+  transform: scale(0.5) translateY(-15px);
+}
+
 @media (max-width: 900px) {
   .hero {
     padding: 40px;
@@ -286,5 +307,9 @@ body {
 
   .navbar-nav li {
     margin-left: 10px;
+  }
+
+  footer {
+    font-size: 8px;
   }
 }
