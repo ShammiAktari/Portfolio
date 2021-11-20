@@ -204,12 +204,18 @@ footer ul {
   list-style: none;
 }
 
-footer li {
+footer li:not(:first-child) {
+  margin-left: 15px;
+}
+
+footer small {
   margin-left: 30px;
+}
+footer li a i {
   transition: 0.5s;
 }
 
-footer li:hover {
+footer li a i:hover {
   transform: scale(0.5) translateY(-15px);
 }
 
@@ -314,8 +320,15 @@ footer li:hover {
   }
 
   footer {
-    font-size: 8px;
+    font-size: 10px;
     margin-top: 5%;
     margin-bottom: 20px;
+  }
+
+  footer li:not(:first-child) {
+    margin-left: 30px;
+  }
+  footer small {
+    margin-left: 50px;
   }
 }
