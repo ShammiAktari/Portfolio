@@ -230,6 +230,7 @@ footer li a i:hover {
 
   .about-hero {
     padding: 0 20px;
+    margin-top: 76px;
   }
   .about-text {
     padding: 0 20px;
@@ -260,7 +261,7 @@ footer li a i:hover {
     padding: 10px 20px;
   }
   .work-hero {
-    margin-top: 90px;
+    margin-top: 76px;
   }
 
   .work-hero h1 {
@@ -288,7 +289,7 @@ footer li a i:hover {
   }
 
   .project-space a {
-    font-size: 8px;
+    font-size: 12px;
     padding: 8px 10px;
   }
 
@@ -303,6 +304,7 @@ footer li a i:hover {
   .contact-hero {
     padding: 40px;
     margin: 0 2px;
+    margin-top: 76px;
     font-weight: 500;
   }
 
