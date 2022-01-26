@@ -80,7 +80,25 @@ body {
   padding: 15px 25px;
   margin-left: 15px;
 }
-.shecode {
+.shecode a {
+  color: blueviolet;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.shecode a:hover {
+  color: #d4d40c;
+}
+
+.linkedin a,
+.email a {
+  margin-left: -1px;
+}
+
+.linkedin a:hover {
+  color: blueviolet;
+}
+.email a:hover {
   color: blueviolet;
 }
 
