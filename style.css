@@ -152,7 +152,7 @@ body {
 }
 
 .img6 {
-  width: 195px;
+  width: 250px;
 }
 
 .projects {
@@ -217,6 +217,10 @@ body {
 }
 .icons {
   padding: 0 200px;
+}
+
+.work-img{
+  height: 90%;
 }
 
 .work-together {
