@@ -1,0 +1,20 @@
+body{
+    background-color: #e74c3c;
+    animation: bg-color 10s infinite;
+  }
+  @keyframes bg-color {
+    0% { background-color: #10002b; }
+    20% { background-color: #240046; }
+    40% { background-color: #3c096c; }
+    60% { background-color: #5a189a; }
+    80% { background-color: #7b2cbf; }
+    100% { background-color: #9d4edd;}
+  }
+
+  .banner{
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%; /* set the width of the element */
+    background-attachment: fixed; 
+  }
